@@ -1,8 +1,11 @@
 public String aOrAn(String word) {
-    if(word startsWith ='a','e','i','o','u'){
-        return an+''+word;
-    }
-    else{
-        return a+''+word;
+    if(Sting.isnotEmpty(word)){
+        String firstChar=word.substring(0,1).toLowerCase();
+        if('aeiou'.indexOf(firstChar)){
+            return 'an '+word;
+            }
+            else{
+                return 'a '+word;
+                }
     }
 }

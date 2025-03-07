@@ -8,4 +8,5 @@ public String aOrAn(String word) {
                 return 'a '+word;
                 }
     }
+    return '';
 }

@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-    if(Sting.isnotEmpty(word)){
+    if(String.isnotEmpty(word)){
         String firstChar=word.substring(0,1).toLowerCase();
         if('aeiou'.indexOf(firstChar)){
             return 'an '+word;

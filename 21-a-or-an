@@ -1,0 +1,8 @@
+public String aOrAn(String word) {
+    if(){
+        return an+''+word;
+    }
+    else{
+        return a+''+word;
+    }
+}

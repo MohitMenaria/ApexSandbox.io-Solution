@@ -4,5 +4,5 @@ public Decimal computeTip(Decimal total, Integer percent) {
     }
     Decimal finalTotal=total*percent/100;
     System.debug(finalTotal);
-    return finalTotal;
+    return finalTotal+' is the correct tip');
 }

@@ -1,6 +1,6 @@
 public Boolean isEndWithZero(Integer num){
     String lastNum= String.valueOf(num);
-    if(String.endWith(lastNum)==0){
+    if(String.endsWith(lastNum)==0){
         return true;
     }
     return false;

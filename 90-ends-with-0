@@ -1,5 +1,5 @@
 public Boolean isEndWithZero(Integer num){
-    Integer lastNum=num % 10;
+    Integer lastNum=Match.mod(num);
     if(lastNum==0){
         return true;
     }

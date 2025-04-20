@@ -1,5 +1,6 @@
 public String evenOrOdd(Integer num) {
-    if(Match.mod(num)=1){
+    String num1=Match.mod(num);
+    if(num1==1){
         system.debug('odd');
     }
     else
